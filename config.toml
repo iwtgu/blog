@@ -1,0 +1,24 @@
+min_version = "0.17.0"
+
+title = "Rabbit's Blog"
+base_url = "https://iwtgu.com"
+compile_sass = true
+build_search_index = false
+
+theme = "even"
+generate_feed = true
+taxonomies = [
+    { name = "categories", feed = true },
+    { name = "tags", feed = true },
+]
+
+[markdown]
+highlight_code = true
+
+[extra]
+even_menu = [
+    { url = "$BASE_URL", name = "Home" },
+    { url = "$BASE_URL/categories", name = "Categories" },
+    { url = "$BASE_URL/tags", name = "Tags" },
+]
+even_title = "Rabbit's Blog"
