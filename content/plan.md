@@ -10,6 +10,11 @@ date = 2023-03-06
 - [ ] Git
 - [ ] Linux
 
+# 新的工具
+
+- [ ] Nu Shell
+- [ ] Starship
+
 # 重学基础知识
 
 - [ ] JSON 完整语法
